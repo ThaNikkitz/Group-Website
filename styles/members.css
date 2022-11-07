@@ -1,0 +1,96 @@
+.people {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-image {
+    margin-right: 50px;
+}
+
+.right-image {
+    margin-left: 50px;
+}
+
+.profile-picture {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.left-color {
+    width: inherit;
+    background-image: linear-gradient(to left, #ffffff 0%, #d5f2fe 70%, #d5f2fe 100%);
+}
+
+.right-color {
+    width: inherit;
+    background-image: linear-gradient(to right, #ffffff 0%, #d5f2fe 70%, #d5f2fe 100%);
+}
+
+.left-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: auto;
+    width: 100%;
+    max-width: 1300px;
+    position: sticky;
+    justify-content: left;
+    justify-self: left;
+    align-self: start;
+    padding: 40px 10px;
+}
+.right-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: auto;
+    width: 100%;
+    max-width: 1300px;
+    position: sticky;
+    justify-content: right;
+    justify-self: right;
+    align-self: end;
+    padding: 40px 60px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+
+.left-desc {
+    width: 650px;
+    margin-left: 50px;
+    justify-self: center;
+    grid-template-rows: auto;
+    justify-content: space-between;
+}
+
+.right-desc {
+    width: 650px;
+    margin-right: 50px;
+    justify-self: center;
+    grid-template-rows: auto;
+    justify-content: space-between;
+}
+
+.desc p {
+    color: #0f5c77;
+    font-size: larger;
+    line-height: 1.8rem;
+}
+
+.desc h2 {
+    margin-bottom: 1.5rem;
+    color: #0f5c77;
+    font-weight: lighter;
+    font-size: xxx-large;
+}
+
+.desc u {
+    text-decoration-thickness: 0.1rem;
+}
